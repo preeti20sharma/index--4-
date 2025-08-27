@@ -1,0 +1,477 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #ffffff;
+}
+
+.hero-section {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
+    url("./assets/banner-1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Center main content */
+.banner-center-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+
+.banner-bottom-strip {
+  /* background: rgba(255, 255, 255, 0.77); */
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  font-size: 1.2rem;
+  /* border-top: 1px solid #ddd; */
+}
+
+.section-1 {
+  padding-top: 180px;
+  padding-bottom: 100px !important;
+  margin: 40px 0px;
+}
+
+.icon-box {
+  font-size: 2rem;
+  color: #77c84b;
+}
+
+.lead {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.btn-theme {
+  background-color: #77c84b;
+  color: white;
+  border: none;
+  padding: 13px 22px;
+  font-size: 20px;
+}
+
+.btn-theme:hover {
+  background-color: #77c84b;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn-theme-2 {
+  background-color: #77c84b;
+  color: white;
+  border: none;
+  padding: 13px 15px;
+  font-size: 16px;
+}
+
+.btn-theme-2:hover {
+  background-color: #77c84b;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.section-2 {
+  padding: 80px 0px !important;
+}
+
+.section-2 h2 {
+  font-size: 1.8rem;
+}
+
+.section-2 img {
+  margin-bottom: 10px;
+}
+
+.text {
+  text-align: center;
+  padding: 0px 39px;
+  font-size: 28px !important;
+  font-family: sans-serif;
+}
+
+.section-4 ul {
+  padding: 25px 0px;
+  font-size: 28px;
+  list-style: none;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.para {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.f-larger {
+  font-size: x-large !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+
+
+
+.section-6 {
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
+  padding-bottom: 140px;
+  min-height: 80vh;
+  background: url(./assets/6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-rendering: pixelated;
+}
+
+.section-6 .container {
+  background: rgb(255 255 255 / 100%);
+  backdrop-filter: blur(2px);
+  margin: 10px 5px;
+}
+
+.section-6 .container a {
+  color: #2a5811 !important;
+  font-weight: bold !important;
+}
+
+.self-margin {
+  margin-bottom: 30px !important;
+}
+
+@media screen and (max-width: 480px) {
+  .banner-bottom-strip h3 {
+    font-size: 22px;
+    margin: 0;
+    flex-wrap: wrap;
+  }
+  .gap {
+    gap: 50px !important;
+  }
+
+  .banner-bottom-strip {
+    /* background: rgba(255, 255, 255, 0.77); */
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    font-size: 1.2rem;
+    /* border-top: 1px solid #ddd; */
+  }
+
+  .section-1 {
+    padding-top: 40px;
+  }
+
+  .section-2 {
+    padding: 0px 0px !important;
+  }
+
+  .section-2 .container .pt-5 {
+    padding-top: 0px !important;
+  }
+
+  .section-2 img {
+    margin-bottom: 0px !important;
+  }
+
+  .section-2 .btn {
+    margin-top: 0px !important;
+  }
+
+  .section-2 .text {
+    padding: 0px 20px;
+  }
+
+  .section-2 .mb-4 {
+    margin-bottom: 0px !important;
+  }
+
+  .section-4 {
+    margin-top: 70px !important;
+    padding: 15px 0px !important;
+  }
+
+  .section-5 {
+    margin: 40px 0px !important;
+    /* padding: 25px 0px; */
+  }
+
+  .section-5 .container {
+    padding-top: 0px !important;
+    padding-bottom: 20px;
+  }
+
+  .section-5 .container .row {
+    padding: 0px 0px !important;
+  }
+
+  .section-5 .container .row .col-md-4 {
+    margin-bottom: 0px !important;
+  }
+
+  .btn-theme-2 {
+    padding: 12px 14px;
+    font-size: 14px;
+    margin-left: 2px;
+  }
+
+  .text {
+    font-size: 24px !important;
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .para {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .section-4 ul {
+    padding: 23px 0px;
+    font-size: 18px;
+    list-style: none;
+  }
+
+  .hero-section {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
+      url("./assets/banner-1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-6 {
+    margin-top: 80px !important;
+    min-height: 80vh;
+    background: url(./assets/6-mob.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: pixelated;
+  }
+
+  .self-margin {
+    margin-bottom: 0px;
+  }
+
+  .banner-bottom-strip {
+    flex-direction: column;
+    font-size: 1rem;
+  }
+
+  .contact {
+    font-size: 22x;
+  }
+
+  .videoSection {
+    padding: 50px 0px !important;
+  }
+
+  .section-2 .error-1 {
+
+    margin: 0px 0px !important;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .section-1 {
+    padding-top: 30px;
+  }
+
+  .text {
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 24px !important;
+  }
+
+  .para {
+    font-size: 18px;
+  }
+
+  .section-4 ul {
+    font-size: 22px;
+    padding: 23px 0px;
+  }
+
+  .section-4 {
+    margin-top: 100px !important;
+    margin-bottom: 80px !important;
+  }
+
+  .section-5 {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+  }
+
+  .section-5 .container {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  .self-margin {
+    margin-bottom: 0px;
+  }
+
+  .banner-bottom-strip {
+    flex-direction: column;
+    font-size: 1.2rem;
+  }
+
+  .hero-section {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
+      url("./assets/mob-banner.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-6 {
+    margin-top: 80px !important;
+    min-height: 80vh;
+    background: url(./assets/6-mob.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: pixelated;
+  }
+}
+
+.contact {
+  text-align: start;
+  list-style-type: none;
+  font-size: 25px;
+}
+
+.contact {
+  padding-left: 14px !important;
+}
+
+.contact span {
+  font-weight: bolder;
+}
+
+
+/*  */
+.testimonial {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.testimonial img {
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.testimonial-text {
+  font-size: 12px;
+  color: #333;
+  font-weight: 500;
+}
+
+.testimonial-author {
+  font-weight: 600;
+  margin-top: 10px;
+  color: #333;
+}
+
+.info h3 {
+  font-weight: 600;
+  font-family: ui-serif;
+  color: rgb(110 112 117);
+  letter-spacing: 1px;
+  font-size: 50px;
+}
+
+.info p {
+  font-weight: 600;
+  font-family: ui-serif;
+  color: rgb(110 112 117);
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+
+@media (max-width:768px) {
+  .testimonial {
+    width: auto !important;
+    float: none !important;
+    flex-wrap: wrap;
+  }
+
+  .videoSection {
+    padding: 40px 0px !important;
+  }
+
+}
+
+.footer {
+  background-image: linear-gradient(97deg, #161d16 20%, #0a2309 100%), url('assets/banner-1.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.leftItem {
+  font-size: 25px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Sections */
+.section-4 {
+  margin-top: 100px !important;
+  margin-bottom: 40px !important;
+  padding: 80px 0px !important;
+}
+
+.section-5 {
+  margin: 90px 0px !important;
+  padding: 25px 0px;
+}
+
+.videoSection {
+  padding: 120px 0px;
+}
+
+/* updates */
+.col-md-6{
+ padding-left: 0px!important;
+ padding-right: 0px!important;
+}
