@@ -55,8 +55,8 @@ body {
   background-color: #77c84b;
   color: white;
   border: none;
-  padding: 13px 22px;
-  font-size: 20px;
+  padding: 8px 10px;
+  font-size: 14px;
 }
 
 .btn-theme:hover {
@@ -71,6 +71,7 @@ body {
   padding: 8px 10px;
   font-size: 14px;
 }
+
 
 .btn-theme-2:hover {
   background-color: #77c84b;
