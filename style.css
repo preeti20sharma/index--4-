@@ -55,8 +55,9 @@ body {
   background-color: #77c84b;
   color: white;
   border: none;
-  padding: 8px 10px;
-  font-size: 14px;
+  padding: 10px 12px;
+  font-size: 16px;
+  border-radius: 8px;
 }
 
 .btn-theme:hover {
