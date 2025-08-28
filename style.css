@@ -64,8 +64,9 @@ body {
   background-color: #77c84b;
   color: white;
   border: none;
-  padding: 8px 10px;
-  font-size: 14px;
+  padding: 14px 16px;
+  font-size: 18px;
+  border-radius: 15px;
 }
 
 .btn-theme:hover {
@@ -77,8 +78,10 @@ body {
   background-color: #77c84b;
   color: white;
   border: none;
-  padding: 8px 10px;
-  font-size: 14px;
+  padding: 14px 16px;
+  font-size: 18px;
+  border-radius: 15px;
+
 }
 
 
@@ -102,7 +105,7 @@ body {
 .text {
   text-align: center;
   padding: 0px 39px;
-  font-size: 28px !important;
+  font-size: 28px;
   font-family: sans-serif;
 }
 
@@ -181,6 +184,10 @@ body {
     font-size: 1.2rem;
     /* border-top: 1px solid #ddd; */
   }
+  .small-img img{
+    width: 100px !important;
+    height: auto !important;
+  }
 
   .section-1 {
     padding-top: 40px;
@@ -240,8 +247,8 @@ body {
   }
 
   .text {
-    font-size: 24px !important;
-    padding: 0px 15px;
+    font-size: 18px !important;
+    padding: 4px 15px;
     text-align: center;
     font-weight: 600;
   }
@@ -306,6 +313,7 @@ body {
   .section-1 {
     padding-top: 30px;
   }
+  
 
   .text {
     text-align: center;
