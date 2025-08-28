@@ -158,9 +158,9 @@ body {
   font-weight: bold !important;
 }
 
-.self-margin {
+/* .self-margin {
   margin-bottom: 30px !important;
-}
+} */
 
 @media screen and (max-width: 480px) {
   .banner-bottom-strip h3 {
@@ -241,7 +241,7 @@ body {
 
   .text {
     font-size: 24px !important;
-    padding: 20px 15px;
+    padding: 0px 15px;
     text-align: center;
     font-weight: 600;
   }
