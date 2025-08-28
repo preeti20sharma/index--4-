@@ -50,6 +50,15 @@ body {
   font-weight: 500;
   font-size: 25px;
 }
+@media(max-width:768px){
+  .lead {
+    font-weight: 400;
+    font-size: 14px !important;
+}
+.main-heading{
+  font-size: 12px !important;
+}
+}
 
 .btn-theme {
   background-color: #77c84b;
