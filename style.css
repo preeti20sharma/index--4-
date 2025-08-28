@@ -108,6 +108,10 @@ body {
   font-size: 28px;
   font-family: sans-serif;
 }
+.heading-2{
+  font-size: 35px !important;
+  font-weight: 600 !important;
+}
 
 .section-4 ul {
   padding: 25px 0px;
@@ -188,7 +192,12 @@ body {
     width: 100px !important;
     height: auto !important;
   }
-
+  .heading-3{
+    font-size: 23px !important;
+  }
+.heading-5{
+  font-size: 28px !important;
+}
   .section-1 {
     padding-top: 40px;
   }
@@ -254,9 +263,10 @@ body {
   }
   .text-section {
     font-size: 20px !important;
-    padding: 0px 15px;
+    padding: 20px 15px;
     text-align: center;
     font-weight: 600;
+    margin-top: 10px !important;
   }
 
   .para {
@@ -267,7 +277,7 @@ body {
 
   .section-4 ul {
     padding: 23px 0px;
-    font-size: 18px;
+    font-size: 22px !important;
     list-style: none;
   }
 
